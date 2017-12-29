@@ -4,7 +4,6 @@ This is my Project for the course evaluation of Native Apps II. This project wil
 ### Appstore
 The application will be available in the appstore as soon as possible. I'm waiting for a review at this moment.
 ![status](https://cdn.pbrd.co/images/H0sy7lk.png)
-![demo](https://drive.google.com/file/d/1jEw7LZiMJuWiL3T5XQAgw6_RAy2GyUU6.gif)
 
 ### Usage
 Just run the xcode project. The app comes with a prefilled **Realm database** so you should see all the firework in the Collectionview. If you want use the scanner at home you must edit the *'FireworkOverviewController.swift'*. 
@@ -39,4 +38,4 @@ I used some new material that we didn't see in class.
 I used [Microsoft's custom vision](https://www.customvision.ai) to build my own Machine Learning Model (Vuurwerk.mlmodel). 
 
 ### Demo video
-
+![demo](https://media.giphy.com/media/3ohc0UC57yeVuxwWPK/giphy.gif)
