@@ -38,8 +38,8 @@ I used some new material that we didn't see in class.
 
 I used [Microsoft's custom vision](https://www.customvision.ai) to build my own Machine Learning Model [(Vuurwerk.mlmodel)](https://github.com/Jeremy-vdw/FeestwinkelApp/blob/master/Feestwinkel/Vuurwerk.mlmodel)
 
-### Demo video
+### Demo videos
 <p align="center">
-<img src="https://github.com/Jeremy-vdw/FeestwinkelApp/blob/master/demo1.gif" height="700" />
-<img src="https://github.com/Jeremy-vdw/FeestwinkelApp/blob/master/demo2.gif" height="700" />
+<img src="https://github.com/Jeremy-vdw/FeestwinkelApp/blob/master/demo1.gif" height="750" />
+<img src="https://github.com/Jeremy-vdw/FeestwinkelApp/blob/master/demo2.gif" height="750" />
 </p>
