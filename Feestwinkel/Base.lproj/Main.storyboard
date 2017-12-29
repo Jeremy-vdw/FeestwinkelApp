@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="EVN-xf-x3M">
+    <device id="ipad12_9" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Wolf_Sans_Regular.ttf">
+            <string>WolfSans-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Homepage-->
+        <scene sceneID="sVM-RH-MVp">
+            <objects>
+                <viewController id="dBC-5A-6qT" customClass="FireworkOverviewController" customModule="Feestwinkel" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zlo-so-s9A">
+                        <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalCompressionResistancePriority="752" verticalCompressionResistancePriority="752" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rqc-ZS-qs0">
+                                <rect key="frame" x="558" y="300" width="250" height="50"/>
+                                <color key="backgroundColor" red="0.73724883794784546" green="0.2228742241859436" blue="0.18078020215034485" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="250" id="C4h-Vj-VY3"/>
+                                    <constraint firstAttribute="height" constant="50" id="xuK-AP-tag"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="WolfSans-Regular" family="Wolf Sans" pointSize="20"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Vuurwerk bekijken"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="5"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="D4h-Gc-QOW" kind="show" identifier="showFirework" id="cat-9c-jNg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="752" verticalCompressionResistancePriority="752" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Giv-TY-grG">
+                                <rect key="frame" x="558" y="370" width="250" height="50"/>
+                                <color key="backgroundColor" red="0.73724883794784546" green="0.2228742241859436" blue="0.18078020215034485" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="1xU-aZ-abh"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="250" id="fL9-8E-kKY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="WolfSans-Regular" family="Wolf Sans" pointSize="20"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Vuurwerk scannen"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="5"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="BYg-0O-JD3" kind="show" identifier="showScanner" id="3t4-TY-gQi"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="252" verticalHuggingPriority="252" horizontalCompressionResistancePriority="759" verticalCompressionResistancePriority="760" image="logo-midden" translatesAutoresizingMaskIntoConstraints="NO" id="aMu-Cp-qML">
+                                <rect key="frame" x="558" y="30" width="250" height="250"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="250" id="nL4-hU-9RX"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="250" id="oWI-hb-B6H"/>
+                                    <constraint firstAttribute="width" secondItem="aMu-Cp-qML" secondAttribute="height" multiplier="1:1" id="oY5-vD-qLB"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalCompressionResistancePriority="752" verticalCompressionResistancePriority="752" editable="NO" text="Om vuurwerk te scannen moet u zich in de Feestwinkel bevinden" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MEH-af-H8L">
+                                <rect key="frame" x="558" y="420" width="250" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="0qe-5T-sAy"/>
+                                    <constraint firstAttribute="width" constant="250" id="qZy-h8-lU5"/>
+                                </constraints>
+                                <color key="textColor" red="0.70509928464889526" green="0.72917979955673218" blue="0.74998384714126587" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="WolfSans-Regular" family="Wolf Sans" pointSize="12"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Rqc-ZS-qs0" firstAttribute="centerX" secondItem="Fct-vy-Avm" secondAttribute="centerX" id="3jV-Ut-20Z"/>
+                            <constraint firstItem="Fct-vy-Avm" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="aMu-Cp-qML" secondAttribute="trailing" constant="20" id="BS5-DN-NaX"/>
+                            <constraint firstItem="Fct-vy-Avm" firstAttribute="bottom" secondItem="MEH-af-H8L" secondAttribute="bottom" constant="20" id="Bgp-rd-QxP"/>
+                            <constraint firstItem="MEH-af-H8L" firstAttribute="top" secondItem="Giv-TY-grG" secondAttribute="bottom" id="KGL-Me-fcl"/>
+                            <constraint firstItem="MEH-af-H8L" firstAttribute="centerX" secondItem="Fct-vy-Avm" secondAttribute="centerX" id="Kzi-Vm-iYa"/>
+                            <constraint firstItem="aMu-Cp-qML" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Fct-vy-Avm" secondAttribute="leading" constant="20" id="QaN-b1-7P5"/>
+                            <constraint firstItem="aMu-Cp-qML" firstAttribute="centerX" secondItem="Fct-vy-Avm" secondAttribute="centerX" id="SSQ-3X-bIe"/>
+                            <constraint firstItem="aMu-Cp-qML" firstAttribute="top" secondItem="zlo-so-s9A" secondAttribute="top" constant="30" id="ff1-r5-ABA"/>
+                            <constraint firstItem="Rqc-ZS-qs0" firstAttribute="top" secondItem="aMu-Cp-qML" secondAttribute="bottom" constant="20" id="lcG-Yu-wPs"/>
+                            <constraint firstItem="Giv-TY-grG" firstAttribute="top" secondItem="Rqc-ZS-qs0" secondAttribute="bottom" constant="20" id="pqj-Mc-3wz"/>
+                            <constraint firstItem="Giv-TY-grG" firstAttribute="centerX" secondItem="Fct-vy-Avm" secondAttribute="centerX" id="xyB-7M-WTn"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Fct-vy-Avm"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Homepage" id="9tp-wz-47y">
+                        <barButtonItem key="backBarButtonItem" title=" " id="Ubd-3c-d2G"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="scanButton" destination="Giv-TY-grG" id="Y4U-qk-Oy6"/>
+                        <outlet property="scanText" destination="MEH-af-H8L" id="y9F-aN-nhV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0pp-GX-2vF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-851.25" y="321.25"/>
+        </scene>
+        <!--Scannen-->
+        <scene sceneID="cKU-If-93f">
+            <objects>
+                <viewController id="BYg-0O-JD3" customClass="FireworkCameraViewController" customModule="Feestwinkel" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lQX-on-e5m">
+                        <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GYd-fY-OfJ">
+                                <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
+                            </arscnView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Hou de camera recht voor het gewenste vuurwerk. U hoeft de QR code hiervoor niet te scannen." textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ycf-xb-tqf">
+                                <rect key="frame" x="525.5" y="889" width="315" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="315" id="4NU-XA-gLE"/>
+                                    <constraint firstAttribute="height" constant="75" id="Lnx-Vf-HtT"/>
+                                    <constraint firstAttribute="width" constant="315" id="YNB-NQ-1nJ"/>
+                                </constraints>
+                                <color key="textColor" red="0.737224280834198" green="0.2269112765789032" blue="0.18517723679542542" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="WolfSans-Regular" family="Wolf Sans" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="GYd-fY-OfJ" firstAttribute="trailing" secondItem="2EF-3G-oag" secondAttribute="trailing" id="4yv-VZ-AgS"/>
+                            <constraint firstItem="GYd-fY-OfJ" firstAttribute="bottom" secondItem="2EF-3G-oag" secondAttribute="bottom" id="5Yv-FC-xJE"/>
+                            <constraint firstItem="2EF-3G-oag" firstAttribute="bottom" secondItem="ycf-xb-tqf" secondAttribute="bottom" constant="60" id="DGm-La-yJD"/>
+                            <constraint firstItem="GYd-fY-OfJ" firstAttribute="leading" secondItem="2EF-3G-oag" secondAttribute="leading" id="ZLd-WT-klF"/>
+                            <constraint firstItem="ycf-xb-tqf" firstAttribute="centerX" secondItem="lQX-on-e5m" secondAttribute="centerX" id="lOS-E7-L50"/>
+                            <constraint firstItem="GYd-fY-OfJ" firstAttribute="centerX" secondItem="lQX-on-e5m" secondAttribute="centerX" id="oS6-rf-gOF"/>
+                            <constraint firstItem="GYd-fY-OfJ" firstAttribute="top" secondItem="lQX-on-e5m" secondAttribute="top" id="ydv-Nm-osF"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="2EF-3G-oag"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Scannen" id="QlO-WI-Unf"/>
+                    <connections>
+                        <outlet property="sceneView" destination="GYd-fY-OfJ" id="0Tm-e1-usy"/>
+                        <outlet property="textView" destination="ycf-xb-tqf" id="ool-N6-PAE"/>
+                        <segue destination="YeY-AT-Ad8" kind="showDetail" identifier="showVideo" id="rCJ-Ps-fcx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Wh-fE-fZA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1086.9565217391305" y="619.56521739130437"/>
+        </scene>
+        <!--Vuurwerk-->
+        <scene sceneID="hEH-pX-Qf1">
+            <objects>
+                <collectionViewController title="Vuurwerk" id="D4h-Gc-QOW" customClass="FireworkCollectionViewController" customModule="Feestwinkel" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="VaS-nn-np7">
+                        <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="d4r-D5-bbb">
+                            <size key="itemSize" width="200" height="199"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="FireworkCell" id="Jia-qW-ZZJ" customClass="FireworkCell" customModule="Feestwinkel" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="200" height="199"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                    <rect key="frame" x="0.0" y="0.0" width="200" height="199"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="752" verticalCompressionResistancePriority="752" text="Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="u0m-CA-mhI">
+                                            <rect key="frame" x="77.5" y="148" width="45.5" height="19"/>
+                                            <fontDescription key="fontDescription" name="WolfSans-Regular" family="Wolf Sans" pointSize="16"/>
+                                            <color key="textColor" red="0.14901960784313725" green="0.17254901960784313" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="252" horizontalCompressionResistancePriority="752" verticalCompressionResistancePriority="752" text="Price" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gh0-YO-mHK">
+                                            <rect key="frame" x="79.5" y="178" width="41.5" height="19"/>
+                                            <fontDescription key="fontDescription" name="WolfSans-Regular" family="Wolf Sans" pointSize="16"/>
+                                            <color key="textColor" red="0.74117647058823533" green="0.1764705882352941" blue="0.094117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="VUU53541" translatesAutoresizingMaskIntoConstraints="NO" id="qZd-MN-8hd">
+                                            <rect key="frame" x="0.0" y="0.0" width="200" height="148"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="752" verticalCompressionResistancePriority="752" text="100 shots" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g4V-qp-gtK">
+                                            <rect key="frame" x="76.5" y="167" width="47" height="12"/>
+                                            <fontDescription key="fontDescription" name="WolfSans-Regular" family="Wolf Sans" pointSize="10"/>
+                                            <color key="textColor" red="0.70588235290000001" green="0.72941176470000002" blue="0.74901960779999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="highlightedColor" red="0.70588235294117641" green="0.72941176470588232" blue="0.74901960784313726" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </label>
+                                    </subviews>
+                                </view>
+                                <constraints>
+                                    <constraint firstItem="u0m-CA-mhI" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Jia-qW-ZZJ" secondAttribute="leadingMargin" id="5QM-3m-4US"/>
+                                    <constraint firstItem="gh0-YO-mHK" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Jia-qW-ZZJ" secondAttribute="leading" id="8sc-eS-co4"/>
+                                    <constraint firstItem="g4V-qp-gtK" firstAttribute="centerX" secondItem="Jia-qW-ZZJ" secondAttribute="centerX" id="9c3-cb-pdf"/>
+                                    <constraint firstItem="u0m-CA-mhI" firstAttribute="top" secondItem="qZd-MN-8hd" secondAttribute="bottom" id="AKj-SB-idD"/>
+                                    <constraint firstAttribute="bottom" secondItem="gh0-YO-mHK" secondAttribute="bottom" constant="2" id="F6j-1Q-3WI"/>
+                                    <constraint firstItem="g4V-qp-gtK" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Jia-qW-ZZJ" secondAttribute="leadingMargin" id="FAh-pd-SMh"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="gh0-YO-mHK" secondAttribute="trailing" id="FGr-Eo-gJE"/>
+                                    <constraint firstAttribute="bottomMargin" secondItem="g4V-qp-gtK" secondAttribute="bottom" constant="12" id="FrJ-dk-CF9"/>
+                                    <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="g4V-qp-gtK" secondAttribute="trailing" id="Kfj-0R-Yb9"/>
+                                    <constraint firstItem="qZd-MN-8hd" firstAttribute="centerX" secondItem="Jia-qW-ZZJ" secondAttribute="centerX" id="MJd-qR-pB0"/>
+                                    <constraint firstItem="qZd-MN-8hd" firstAttribute="top" secondItem="Jia-qW-ZZJ" secondAttribute="top" id="MtV-WN-l3J"/>
+                                    <constraint firstItem="u0m-CA-mhI" firstAttribute="centerX" secondItem="Jia-qW-ZZJ" secondAttribute="centerX" id="b0h-s1-ato"/>
+                                    <constraint firstItem="qZd-MN-8hd" firstAttribute="leading" secondItem="Jia-qW-ZZJ" secondAttribute="leading" id="dEH-Ck-Z4q"/>
+                                    <constraint firstItem="g4V-qp-gtK" firstAttribute="top" secondItem="u0m-CA-mhI" secondAttribute="bottom" id="eE7-iN-IaX"/>
+                                    <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="u0m-CA-mhI" secondAttribute="trailing" id="pzB-JP-24I"/>
+                                    <constraint firstAttribute="trailing" secondItem="qZd-MN-8hd" secondAttribute="trailing" id="szj-Lb-Var"/>
+                                    <constraint firstItem="gh0-YO-mHK" firstAttribute="centerX" secondItem="Jia-qW-ZZJ" secondAttribute="centerX" id="tvH-8e-4N2"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="fireworkImage" destination="qZd-MN-8hd" id="zvX-OE-K04"/>
+                                    <outlet property="nameLabel" destination="u0m-CA-mhI" id="OU5-0v-17e"/>
+                                    <outlet property="priceLabel" destination="gh0-YO-mHK" id="fJS-9C-TfW"/>
+                                    <outlet property="shotsLabel" destination="g4V-qp-gtK" id="lLt-o7-4RK"/>
+                                    <segue destination="YeY-AT-Ad8" kind="showDetail" identifier="showVideo" id="BQa-o3-jg8"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="D4h-Gc-QOW" id="5Yc-RX-alQ"/>
+                            <outlet property="delegate" destination="D4h-Gc-QOW" id="t0a-jq-jV2"/>
+                        </connections>
+                    </collectionView>
+                    <navigationItem key="navigationItem" title="Vuurwerk" id="WgJ-sP-fkh">
+                        <barButtonItem key="backBarButtonItem" title=" " id="Rgg-D8-Lwu"/>
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="filter" id="3xM-oa-JKo">
+                            <inset key="imageInsets" minX="0.0" minY="1" maxX="-38" maxY="-8"/>
+                            <inset key="landscapeImageInsets" minX="1" minY="-8" maxX="0.0" maxY="-38"/>
+                            <inset key="largeContentSizeImageInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <connections>
+                                <segue destination="o40-ob-ggN" kind="show" identifier="filter" id="KD0-Kj-BLa"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="fireworkCollectionView" destination="VaS-nn-np7" id="kmy-5H-L99"/>
+                    </connections>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lMG-gj-rdn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1090.4000000000001" y="-213.64317841079463"/>
+        </scene>
+        <!--Sorteer op-->
+        <scene sceneID="LVh-ml-WzW">
+            <objects>
+                <tableViewController id="o40-ob-ggN" customClass="FireworkFilterViewController" customModule="Feestwinkel" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="97k-xx-W5o">
+                        <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="filterCell" textLabel="NNe-NW-7l0" style="IBUITableViewCellStyleDefault" id="qAo-xM-b4k">
+                                <rect key="frame" x="0.0" y="28" width="1366" height="52"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="qAo-xM-b4k" id="vCV-y8-ZkU">
+                                    <rect key="frame" x="0.0" y="0.0" width="1366" height="51.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="NNe-NW-7l0">
+                                            <rect key="frame" x="20" y="0.0" width="1326" height="51.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" name="WolfSans-Regular" family="Wolf Sans" pointSize="17"/>
+                                            <color key="textColor" red="0.19498273730278015" green="0.22678178548812866" blue="0.2683875560760498" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="vUd-Fk-p5l" kind="unwind" identifier="didSelectFilter" unwindAction="unwindFilterWithSegue:" id="YGR-xu-8Um"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="o40-ob-ggN" id="60x-af-0FU"/>
+                            <outlet property="delegate" destination="o40-ob-ggN" id="D4G-B3-Mkw"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Sorteer op" id="Brc-FO-Pag"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SUa-MQ-I6T" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="vUd-Fk-p5l" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="2526" y="-438"/>
+        </scene>
+        <!--AV Player View Controller-->
+        <scene sceneID="ecb-h5-Cfg">
+            <objects>
+                <avPlayerViewController videoGravity="AVLayerVideoGravityResizeAspect" id="YeY-AT-Ad8" customClass="FireworkPlayerViewController" customModule="Feestwinkel" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8mS-yA-DJt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2527" y="322"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="AUd-eI-wiz">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="EVN-xf-x3M" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="DfV-25-x9d">
+                        <rect key="frame" x="0.0" y="20" width="1366" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="WolfSans-Regular" family="Wolf Sans" pointSize="21"/>
+                            <color key="textColor" red="0.73724883789999995" green="0.2228742242" blue="0.18078020219999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <color key="textColor" red="0.73724883789999995" green="0.2228742242" blue="0.18078020219999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="dBC-5A-6qT" kind="relationship" relationship="rootViewController" id="ITI-Hp-wyX"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tyi-hG-iJ9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2028" y="323"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="VUU53541" width="600" height="600"/>
+        <image name="filter" width="80" height="80"/>
+        <image name="logo-midden" width="1000" height="1000"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="rCJ-Ps-fcx"/>
+    </inferredMetricsTieBreakers>
+</document>

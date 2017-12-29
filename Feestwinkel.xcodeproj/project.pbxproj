@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F2B69DF1FEAEF3300D34221 /* Wolf_Sans_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F2B69DE1FEAEF2600D34221 /* Wolf_Sans_Regular.ttf */; };
+		3F2B69E31FEB039C00D34221 /* FireworkPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2B69E21FEB039C00D34221 /* FireworkPlayerViewController.swift */; };
+		3F36D02B1FEB2AA10009EAC1 /* FireworkCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F36D02A1FEB2AA10009EAC1 /* FireworkCameraViewController.swift */; };
+		3F36D0351FEBFF1A0009EAC1 /* FireworkOverviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F36D0341FEBFF1A0009EAC1 /* FireworkOverviewController.swift */; };
+		3F4A1F381FEE6DFF00009B26 /* firework.realm in Resources */ = {isa = PBXBuildFile; fileRef = 3F4A1F371FEE6DF300009B26 /* firework.realm */; };
+		3F4A1F3A1FEE75E000009B26 /* Vuurwerk.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3F4A1F391FEE75E000009B26 /* Vuurwerk.mlmodel */; };
+		3F5764D51FEACC7800F9155F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5764D41FEACC7800F9155F /* AppDelegate.swift */; };
+		3F5764DA1FEACC7800F9155F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F5764D81FEACC7800F9155F /* Main.storyboard */; };
+		3F5764DF1FEACC7800F9155F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F5764DD1FEACC7800F9155F /* LaunchScreen.storyboard */; };
+		3F5764EA1FEAD14600F9155F /* Firework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5764E91FEAD14600F9155F /* Firework.swift */; };
+		3F5764EF1FEAD60E00F9155F /* FireworkCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5764EE1FEAD60E00F9155F /* FireworkCollectionViewController.swift */; };
+		3F5764F21FEADA1A00F9155F /* FireworkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5764F11FEADA1A00F9155F /* FireworkCell.swift */; };
+		3FA335DB1FEC3DC700B27112 /* VUU49810.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3F36D0441FEC3C480009EAC1 /* VUU49810.mp4 */; };
+		3FA335DC1FEC3DC700B27112 /* VUU49936.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3F36D04F1FEC3C490009EAC1 /* VUU49936.mp4 */; };
+		3FA335DD1FEC3DC700B27112 /* VUU49960.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3F36D0511FEC3C490009EAC1 /* VUU49960.mp4 */; };
+		3FA335DE1FEC3DC700B27112 /* VUU49961.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3F36D0431FEC3C480009EAC1 /* VUU49961.mp4 */; };
+		3FA335DF1FEC3DC700B27112 /* VUU52513.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3F36D03C1FEC3C480009EAC1 /* VUU52513.mp4 */; };
+		3FA335E01FEC3DC700B27112 /* VUU53304.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3F36D0501FEC3C490009EAC1 /* VUU53304.mp4 */; };
+		3FA335E11FEC3DC700B27112 /* VUU53411.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3F36D04D1FEC3C490009EAC1 /* VUU53411.mp4 */; };
+		3FA335E21FEC3DC700B27112 /* VUU53422.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3F36D0471FEC3C480009EAC1 /* VUU53422.mp4 */; };
+		3FA335E31FEC3DC700B27112 /* VUU53430.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3F36D04A1FEC3C490009EAC1 /* VUU53430.mp4 */; };
+		3FA335E41FEC3DC700B27112 /* VUU53450.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3F36D0451FEC3C480009EAC1 /* VUU53450.mp4 */; };
+		3FA335E51FEC3DC700B27112 /* VUU53451.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3F36D0541FEC3C490009EAC1 /* VUU53451.mp4 */; };
+		3FA335E61FEC3DC700B27112 /* VUU53543.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3F36D0421FEC3C480009EAC1 /* VUU53543.mp4 */; };
+		3FA335E71FEC3DC700B27112 /* VUU53551.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3F36D0411FEC3C480009EAC1 /* VUU53551.mp4 */; };
+		3FA335E81FEC3DC700B27112 /* VUU53581.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3F36D0521FEC3C490009EAC1 /* VUU53581.mp4 */; };
+		3FA335E91FEC3DC700B27112 /* VUU53860.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3F36D03D1FEC3C480009EAC1 /* VUU53860.mp4 */; };
+		3FA335EA1FEC3DC700B27112 /* VUU53874.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3F36D0481FEC3C490009EAC1 /* VUU53874.mp4 */; };
+		3FA335EB1FEC3DC700B27112 /* VUU53922.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3F36D03B1FEC3C480009EAC1 /* VUU53922.mp4 */; };
+		3FA335EC1FEC3DC700B27112 /* VUU53923.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3F36D04E1FEC3C490009EAC1 /* VUU53923.mp4 */; };
+		3FA335ED1FEC3DC700B27112 /* VUU53925.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3F36D0491FEC3C490009EAC1 /* VUU53925.mp4 */; };
+		3FA335EE1FEC3DC700B27112 /* VUU201054.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3F36D04C1FEC3C490009EAC1 /* VUU201054.mp4 */; };
+		3FA335EF1FEC3DC700B27112 /* VUU201056.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3F36D04B1FEC3C490009EAC1 /* VUU201056.mp4 */; };
+		3FA335F01FEC3DC700B27112 /* VUU201066.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3F36D0461FEC3C480009EAC1 /* VUU201066.mp4 */; };
+		3FA335F11FEC3DC700B27112 /* VUU203010.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3F36D0531FEC3C490009EAC1 /* VUU203010.mp4 */; };
+		3FA335F21FEC3DC700B27112 /* VUU350026.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3F36D03F1FEC3C480009EAC1 /* VUU350026.mp4 */; };
+		3FA335F31FEC3DC700B27112 /* VUU375520.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3F36D0401FEC3C480009EAC1 /* VUU375520.mp4 */; };
+		3FA335F41FEC3DC700B27112 /* VUU376800.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3F36D03E1FEC3C480009EAC1 /* VUU376800.mp4 */; };
+		3FA335F51FEC3DC700B27112 /* VUU53302.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3F36D03A1FEC242F0009EAC1 /* VUU53302.mp4 */; };
+		3FA335F61FEC3DC700B27112 /* VUU53560.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3F36D0391FEC242F0009EAC1 /* VUU53560.mp4 */; };
+		3FA335F81FEC3FCC00B27112 /* VUU53519.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3FA335F71FEC3F9E00B27112 /* VUU53519.mp4 */; };
+		3FA335FC1FEC673100B27112 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FA335FB1FEC673100B27112 /* Assets.xcassets */; };
+		3FA335FE1FEC724E00B27112 /* FireworkFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA335FD1FEC724E00B27112 /* FireworkFilterViewController.swift */; };
+		F0324C4E809C36568BCE3DAE /* Pods_Feestwinkel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B222D8E4016034A4C1DB72E /* Pods_Feestwinkel.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F2B69DE1FEAEF2600D34221 /* Wolf_Sans_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Wolf_Sans_Regular.ttf; sourceTree = "<group>"; };
+		3F2B69E21FEB039C00D34221 /* FireworkPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireworkPlayerViewController.swift; sourceTree = "<group>"; };
+		3F36D02A1FEB2AA10009EAC1 /* FireworkCameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireworkCameraViewController.swift; sourceTree = "<group>"; };
+		3F36D0341FEBFF1A0009EAC1 /* FireworkOverviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireworkOverviewController.swift; sourceTree = "<group>"; };
+		3F36D0391FEC242F0009EAC1 /* VUU53560.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = VUU53560.mp4; sourceTree = "<group>"; };
+		3F36D03A1FEC242F0009EAC1 /* VUU53302.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = VUU53302.mp4; sourceTree = "<group>"; };
+		3F36D03B1FEC3C480009EAC1 /* VUU53922.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = VUU53922.mp4; sourceTree = "<group>"; };
+		3F36D03C1FEC3C480009EAC1 /* VUU52513.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = VUU52513.mp4; sourceTree = "<group>"; };
+		3F36D03D1FEC3C480009EAC1 /* VUU53860.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = VUU53860.mp4; sourceTree = "<group>"; };
+		3F36D03E1FEC3C480009EAC1 /* VUU376800.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = VUU376800.mp4; sourceTree = "<group>"; };
+		3F36D03F1FEC3C480009EAC1 /* VUU350026.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = VUU350026.mp4; sourceTree = "<group>"; };
+		3F36D0401FEC3C480009EAC1 /* VUU375520.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = VUU375520.mp4; sourceTree = "<group>"; };
+		3F36D0411FEC3C480009EAC1 /* VUU53551.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = VUU53551.mp4; sourceTree = "<group>"; };
+		3F36D0421FEC3C480009EAC1 /* VUU53543.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = VUU53543.mp4; sourceTree = "<group>"; };
+		3F36D0431FEC3C480009EAC1 /* VUU49961.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = VUU49961.mp4; sourceTree = "<group>"; };
+		3F36D0441FEC3C480009EAC1 /* VUU49810.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = VUU49810.mp4; sourceTree = "<group>"; };
+		3F36D0451FEC3C480009EAC1 /* VUU53450.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = VUU53450.mp4; sourceTree = "<group>"; };
+		3F36D0461FEC3C480009EAC1 /* VUU201066.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = VUU201066.mp4; sourceTree = "<group>"; };
+		3F36D0471FEC3C480009EAC1 /* VUU53422.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = VUU53422.mp4; sourceTree = "<group>"; };
+		3F36D0481FEC3C490009EAC1 /* VUU53874.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = VUU53874.mp4; sourceTree = "<group>"; };
+		3F36D0491FEC3C490009EAC1 /* VUU53925.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = VUU53925.mp4; sourceTree = "<group>"; };
+		3F36D04A1FEC3C490009EAC1 /* VUU53430.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = VUU53430.mp4; sourceTree = "<group>"; };
+		3F36D04B1FEC3C490009EAC1 /* VUU201056.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = VUU201056.mp4; sourceTree = "<group>"; };
+		3F36D04C1FEC3C490009EAC1 /* VUU201054.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = VUU201054.mp4; sourceTree = "<group>"; };
+		3F36D04D1FEC3C490009EAC1 /* VUU53411.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = VUU53411.mp4; sourceTree = "<group>"; };
+		3F36D04E1FEC3C490009EAC1 /* VUU53923.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = VUU53923.mp4; sourceTree = "<group>"; };
+		3F36D04F1FEC3C490009EAC1 /* VUU49936.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = VUU49936.mp4; sourceTree = "<group>"; };
+		3F36D0501FEC3C490009EAC1 /* VUU53304.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = VUU53304.mp4; sourceTree = "<group>"; };
+		3F36D0511FEC3C490009EAC1 /* VUU49960.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = VUU49960.mp4; sourceTree = "<group>"; };
+		3F36D0521FEC3C490009EAC1 /* VUU53581.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = VUU53581.mp4; sourceTree = "<group>"; };
+		3F36D0531FEC3C490009EAC1 /* VUU203010.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = VUU203010.mp4; sourceTree = "<group>"; };
+		3F36D0541FEC3C490009EAC1 /* VUU53451.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = VUU53451.mp4; sourceTree = "<group>"; };
+		3F4A1F371FEE6DF300009B26 /* firework.realm */ = {isa = PBXFileReference; lastKnownFileType = file; path = firework.realm; sourceTree = "<group>"; };
+		3F4A1F391FEE75E000009B26 /* Vuurwerk.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Vuurwerk.mlmodel; sourceTree = "<group>"; };
+		3F4A1F3B1FEEA0CF00009B26 /* 53431.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 53431.mp4; sourceTree = "<group>"; };
+		3F5764D11FEACC7800F9155F /* Feestwinkel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Feestwinkel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F5764D41FEACC7800F9155F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F5764D91FEACC7800F9155F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F5764DE1FEACC7800F9155F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F5764E01FEACC7800F9155F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F5764E91FEAD14600F9155F /* Firework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Firework.swift; sourceTree = "<group>"; };
+		3F5764EE1FEAD60E00F9155F /* FireworkCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FireworkCollectionViewController.swift; sourceTree = "<group>"; };
+		3F5764F11FEADA1A00F9155F /* FireworkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireworkCell.swift; sourceTree = "<group>"; };
+		3FA335F71FEC3F9E00B27112 /* VUU53519.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = VUU53519.mp4; sourceTree = "<group>"; };
+		3FA335FB1FEC673100B27112 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FA335FD1FEC724E00B27112 /* FireworkFilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireworkFilterViewController.swift; sourceTree = "<group>"; };
+		3FA417EE1FF3FF0700A43621 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Main.strings; sourceTree = "<group>"; };
+		3FA417EF1FF3FF0700A43621 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		4B222D8E4016034A4C1DB72E /* Pods_Feestwinkel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Feestwinkel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3025AE69426732161F7565F /* Pods-Feestwinkel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Feestwinkel.release.xcconfig"; path = "Pods/Target Support Files/Pods-Feestwinkel/Pods-Feestwinkel.release.xcconfig"; sourceTree = "<group>"; };
+		E6E96DBFBA9FCD84513C2304 /* Pods-Feestwinkel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Feestwinkel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Feestwinkel/Pods-Feestwinkel.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F5764CE1FEACC7800F9155F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0324C4E809C36568BCE3DAE /* Pods_Feestwinkel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B55A121193D27FD2D24EE83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B222D8E4016034A4C1DB72E /* Pods_Feestwinkel.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F2B69DD1FEAEF0200D34221 /* Wolf sans */ = {
+			isa = PBXGroup;
+			children = (
+				3F2B69DE1FEAEF2600D34221 /* Wolf_Sans_Regular.ttf */,
+			);
+			path = "Wolf sans";
+			sourceTree = "<group>";
+		};
+		3F36D0361FEC20DF0009EAC1 /* videos */ = {
+			isa = PBXGroup;
+			children = (
+				3F4A1F3B1FEEA0CF00009B26 /* 53431.mp4 */,
+				3FA335F71FEC3F9E00B27112 /* VUU53519.mp4 */,
+				3F36D0441FEC3C480009EAC1 /* VUU49810.mp4 */,
+				3F36D04F1FEC3C490009EAC1 /* VUU49936.mp4 */,
+				3F36D0511FEC3C490009EAC1 /* VUU49960.mp4 */,
+				3F36D0431FEC3C480009EAC1 /* VUU49961.mp4 */,
+				3F36D03C1FEC3C480009EAC1 /* VUU52513.mp4 */,
+				3F36D0501FEC3C490009EAC1 /* VUU53304.mp4 */,
+				3F36D04D1FEC3C490009EAC1 /* VUU53411.mp4 */,
+				3F36D0471FEC3C480009EAC1 /* VUU53422.mp4 */,
+				3F36D04A1FEC3C490009EAC1 /* VUU53430.mp4 */,
+				3F36D0451FEC3C480009EAC1 /* VUU53450.mp4 */,
+				3F36D0541FEC3C490009EAC1 /* VUU53451.mp4 */,
+				3F36D0421FEC3C480009EAC1 /* VUU53543.mp4 */,
+				3F36D0411FEC3C480009EAC1 /* VUU53551.mp4 */,
+				3F36D0521FEC3C490009EAC1 /* VUU53581.mp4 */,
+				3F36D03D1FEC3C480009EAC1 /* VUU53860.mp4 */,
+				3F36D0481FEC3C490009EAC1 /* VUU53874.mp4 */,
+				3F36D03B1FEC3C480009EAC1 /* VUU53922.mp4 */,
+				3F36D04E1FEC3C490009EAC1 /* VUU53923.mp4 */,
+				3F36D0491FEC3C490009EAC1 /* VUU53925.mp4 */,
+				3F36D04C1FEC3C490009EAC1 /* VUU201054.mp4 */,
+				3F36D04B1FEC3C490009EAC1 /* VUU201056.mp4 */,
+				3F36D0461FEC3C480009EAC1 /* VUU201066.mp4 */,
+				3F36D0531FEC3C490009EAC1 /* VUU203010.mp4 */,
+				3F36D03F1FEC3C480009EAC1 /* VUU350026.mp4 */,
+				3F36D0401FEC3C480009EAC1 /* VUU375520.mp4 */,
+				3F36D03E1FEC3C480009EAC1 /* VUU376800.mp4 */,
+				3F36D03A1FEC242F0009EAC1 /* VUU53302.mp4 */,
+				3F36D0391FEC242F0009EAC1 /* VUU53560.mp4 */,
+			);
+			path = videos;
+			sourceTree = "<group>";
+		};
+		3F5764C81FEACC7800F9155F = {
+			isa = PBXGroup;
+			children = (
+				3F5764D31FEACC7800F9155F /* Feestwinkel */,
+				3F5764D21FEACC7800F9155F /* Products */,
+				624168A048634D46F3EA6E83 /* Pods */,
+				1B55A121193D27FD2D24EE83 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3F5764D21FEACC7800F9155F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F5764D11FEACC7800F9155F /* Feestwinkel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F5764D31FEACC7800F9155F /* Feestwinkel */ = {
+			isa = PBXGroup;
+			children = (
+				3F4A1F371FEE6DF300009B26 /* firework.realm */,
+				3F4A1F391FEE75E000009B26 /* Vuurwerk.mlmodel */,
+				3FA335FB1FEC673100B27112 /* Assets.xcassets */,
+				3F36D0361FEC20DF0009EAC1 /* videos */,
+				3F2B69DD1FEAEF0200D34221 /* Wolf sans */,
+				3F5764F01FEADA0B00F9155F /* Views */,
+				3F5764EB1FEAD37D00F9155F /* ViewControllers */,
+				3F5764E81FEAD12200F9155F /* Model */,
+				3F5764D41FEACC7800F9155F /* AppDelegate.swift */,
+				3F5764D81FEACC7800F9155F /* Main.storyboard */,
+				3F5764DD1FEACC7800F9155F /* LaunchScreen.storyboard */,
+				3F5764E01FEACC7800F9155F /* Info.plist */,
+			);
+			path = Feestwinkel;
+			sourceTree = "<group>";
+		};
+		3F5764E81FEAD12200F9155F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3F5764E91FEAD14600F9155F /* Firework.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3F5764EB1FEAD37D00F9155F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3F5764EE1FEAD60E00F9155F /* FireworkCollectionViewController.swift */,
+				3F2B69E21FEB039C00D34221 /* FireworkPlayerViewController.swift */,
+				3F36D02A1FEB2AA10009EAC1 /* FireworkCameraViewController.swift */,
+				3F36D0341FEBFF1A0009EAC1 /* FireworkOverviewController.swift */,
+				3FA335FD1FEC724E00B27112 /* FireworkFilterViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3F5764F01FEADA0B00F9155F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3F5764F11FEADA1A00F9155F /* FireworkCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		624168A048634D46F3EA6E83 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6E96DBFBA9FCD84513C2304 /* Pods-Feestwinkel.debug.xcconfig */,
+				B3025AE69426732161F7565F /* Pods-Feestwinkel.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F5764D01FEACC7800F9155F /* Feestwinkel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F5764E31FEACC7800F9155F /* Build configuration list for PBXNativeTarget "Feestwinkel" */;
+			buildPhases = (
+				1BE60396BCD1820B97903596 /* [CP] Check Pods Manifest.lock */,
+				3F5764CD1FEACC7800F9155F /* Sources */,
+				3F5764CE1FEACC7800F9155F /* Frameworks */,
+				3F5764CF1FEACC7800F9155F /* Resources */,
+				30D85F60B3AE56C271D42C05 /* [CP] Embed Pods Frameworks */,
+				96AECE439775F30C7ED1ABC2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Feestwinkel;
+			productName = Feestwinkel;
+			productReference = 3F5764D11FEACC7800F9155F /* Feestwinkel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F5764C91FEACC7800F9155F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Jeremie Van de Walle";
+				TargetAttributes = {
+					3F5764D01FEACC7800F9155F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3F5764CC1FEACC7800F9155F /* Build configuration list for PBXProject "Feestwinkel" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+			);
+			mainGroup = 3F5764C81FEACC7800F9155F;
+			productRefGroup = 3F5764D21FEACC7800F9155F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F5764D01FEACC7800F9155F /* Feestwinkel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F5764CF1FEACC7800F9155F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F4A1F381FEE6DFF00009B26 /* firework.realm in Resources */,
+				3FA335F81FEC3FCC00B27112 /* VUU53519.mp4 in Resources */,
+				3FA335DB1FEC3DC700B27112 /* VUU49810.mp4 in Resources */,
+				3FA335DC1FEC3DC700B27112 /* VUU49936.mp4 in Resources */,
+				3FA335DD1FEC3DC700B27112 /* VUU49960.mp4 in Resources */,
+				3FA335DE1FEC3DC700B27112 /* VUU49961.mp4 in Resources */,
+				3FA335DF1FEC3DC700B27112 /* VUU52513.mp4 in Resources */,
+				3FA335E01FEC3DC700B27112 /* VUU53304.mp4 in Resources */,
+				3FA335E11FEC3DC700B27112 /* VUU53411.mp4 in Resources */,
+				3FA335E21FEC3DC700B27112 /* VUU53422.mp4 in Resources */,
+				3FA335E31FEC3DC700B27112 /* VUU53430.mp4 in Resources */,
+				3FA335E41FEC3DC700B27112 /* VUU53450.mp4 in Resources */,
+				3FA335E51FEC3DC700B27112 /* VUU53451.mp4 in Resources */,
+				3FA335E61FEC3DC700B27112 /* VUU53543.mp4 in Resources */,
+				3FA335FC1FEC673100B27112 /* Assets.xcassets in Resources */,
+				3FA335E71FEC3DC700B27112 /* VUU53551.mp4 in Resources */,
+				3FA335E81FEC3DC700B27112 /* VUU53581.mp4 in Resources */,
+				3FA335E91FEC3DC700B27112 /* VUU53860.mp4 in Resources */,
+				3FA335EA1FEC3DC700B27112 /* VUU53874.mp4 in Resources */,
+				3FA335EB1FEC3DC700B27112 /* VUU53922.mp4 in Resources */,
+				3FA335EC1FEC3DC700B27112 /* VUU53923.mp4 in Resources */,
+				3FA335ED1FEC3DC700B27112 /* VUU53925.mp4 in Resources */,
+				3FA335EE1FEC3DC700B27112 /* VUU201054.mp4 in Resources */,
+				3FA335EF1FEC3DC700B27112 /* VUU201056.mp4 in Resources */,
+				3FA335F01FEC3DC700B27112 /* VUU201066.mp4 in Resources */,
+				3FA335F11FEC3DC700B27112 /* VUU203010.mp4 in Resources */,
+				3FA335F21FEC3DC700B27112 /* VUU350026.mp4 in Resources */,
+				3FA335F31FEC3DC700B27112 /* VUU375520.mp4 in Resources */,
+				3FA335F41FEC3DC700B27112 /* VUU376800.mp4 in Resources */,
+				3FA335F51FEC3DC700B27112 /* VUU53302.mp4 in Resources */,
+				3FA335F61FEC3DC700B27112 /* VUU53560.mp4 in Resources */,
+				3F5764DF1FEACC7800F9155F /* LaunchScreen.storyboard in Resources */,
+				3F2B69DF1FEAEF3300D34221 /* Wolf_Sans_Regular.ttf in Resources */,
+				3F5764DA1FEACC7800F9155F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BE60396BCD1820B97903596 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Feestwinkel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30D85F60B3AE56C271D42C05 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Feestwinkel/Pods-Feestwinkel-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Feestwinkel/Pods-Feestwinkel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96AECE439775F30C7ED1ABC2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Feestwinkel/Pods-Feestwinkel-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F5764CD1FEACC7800F9155F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA335FE1FEC724E00B27112 /* FireworkFilterViewController.swift in Sources */,
+				3F2B69E31FEB039C00D34221 /* FireworkPlayerViewController.swift in Sources */,
+				3F5764EA1FEAD14600F9155F /* Firework.swift in Sources */,
+				3F36D02B1FEB2AA10009EAC1 /* FireworkCameraViewController.swift in Sources */,
+				3F4A1F3A1FEE75E000009B26 /* Vuurwerk.mlmodel in Sources */,
+				3F5764EF1FEAD60E00F9155F /* FireworkCollectionViewController.swift in Sources */,
+				3F5764F21FEADA1A00F9155F /* FireworkCell.swift in Sources */,
+				3F5764D51FEACC7800F9155F /* AppDelegate.swift in Sources */,
+				3F36D0351FEBFF1A0009EAC1 /* FireworkOverviewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F5764D81FEACC7800F9155F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F5764D91FEACC7800F9155F /* Base */,
+				3FA417EE1FF3FF0700A43621 /* nl */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F5764DD1FEACC7800F9155F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F5764DE1FEACC7800F9155F /* Base */,
+				3FA417EF1FF3FF0700A43621 /* nl */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F5764E11FEACC7800F9155F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F5764E21FEACC7800F9155F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F5764E41FEACC7800F9155F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6E96DBFBA9FCD84513C2304 /* Pods-Feestwinkel.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5R662B82P5;
+				INFOPLIST_FILE = Feestwinkel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = be.feestwinkel.vuurwerk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F5764E51FEACC7800F9155F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3025AE69426732161F7565F /* Pods-Feestwinkel.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5R662B82P5;
+				INFOPLIST_FILE = Feestwinkel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = be.feestwinkel.vuurwerk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F5764CC1FEACC7800F9155F /* Build configuration list for PBXProject "Feestwinkel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F5764E11FEACC7800F9155F /* Debug */,
+				3F5764E21FEACC7800F9155F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F5764E31FEACC7800F9155F /* Build configuration list for PBXNativeTarget "Feestwinkel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F5764E41FEACC7800F9155F /* Debug */,
+				3F5764E51FEACC7800F9155F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F5764C91FEACC7800F9155F /* Project object */;
+}

@@ -1,0 +1,48 @@
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "3xM-oa-JKo"; */
+"3xM-oa-JKo.title" = "Item";
+
+/* Class = "UINavigationItem"; title = "Homepage"; ObjectID = "9tp-wz-47y"; */
+"9tp-wz-47y.title" = "Homepage";
+
+/* Class = "UINavigationItem"; title = "Sorteer op"; ObjectID = "Brc-FO-Pag"; */
+"Brc-FO-Pag.title" = "Sorteer op";
+
+/* Class = "UICollectionViewController"; title = "Vuurwerk"; ObjectID = "D4h-Gc-QOW"; */
+"D4h-Gc-QOW.title" = "Vuurwerk";
+
+/* Class = "UIButton"; normalTitle = "Vuurwerk scannen"; ObjectID = "Giv-TY-grG"; */
+"Giv-TY-grG.normalTitle" = "Vuurwerk scannen";
+
+/* Class = "UITextView"; text = "Om vuurwerk te scannen moet u zich in de Feestwinkel bevinden"; ObjectID = "MEH-af-H8L"; */
+"MEH-af-H8L.text" = "Om vuurwerk te scannen moet u zich in de Feestwinkel bevinden";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "NNe-NW-7l0"; */
+"NNe-NW-7l0.text" = "Title";
+
+/* Class = "UINavigationItem"; title = "Scannen"; ObjectID = "QlO-WI-Unf"; */
+"QlO-WI-Unf.title" = "Scannen";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "Rgg-D8-Lwu"; */
+"Rgg-D8-Lwu.title" = " ";
+
+/* Class = "UIButton"; normalTitle = "Vuurwerk bekijken"; ObjectID = "Rqc-ZS-qs0"; */
+"Rqc-ZS-qs0.normalTitle" = "Vuurwerk bekijken";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "Ubd-3c-d2G"; */
+"Ubd-3c-d2G.title" = " ";
+
+/* Class = "UINavigationItem"; title = "Vuurwerk"; ObjectID = "WgJ-sP-fkh"; */
+"WgJ-sP-fkh.title" = "Vuurwerk";
+
+/* Class = "UILabel"; text = "100 shots"; ObjectID = "g4V-qp-gtK"; */
+"g4V-qp-gtK.text" = "100 shots";
+
+/* Class = "UILabel"; text = "Price"; ObjectID = "gh0-YO-mHK"; */
+"gh0-YO-mHK.text" = "Price";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "u0m-CA-mhI"; */
+"u0m-CA-mhI.text" = "Name";
+
+/* Class = "UITextView"; text = "Hou de camera recht voor het gewenste vuurwerk. U hoeft de QR code hiervoor niet te scannen."; ObjectID = "ycf-xb-tqf"; */
+"ycf-xb-tqf.text" = "Hou de camera recht voor het gewenste vuurwerk. U hoeft de QR code hiervoor niet te scannen.";

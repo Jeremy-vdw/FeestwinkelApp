@@ -1,0 +1,6 @@
+framework module Pods_Feestwinkel {
+  umbrella header "Pods-Feestwinkel-umbrella.h"
+
+  export *
+  module * { export * }
+}
