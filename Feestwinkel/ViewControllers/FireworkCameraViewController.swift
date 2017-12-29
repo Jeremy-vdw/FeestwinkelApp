@@ -1,6 +1,7 @@
 //
 //  FireworkCameraViewController.swift
 //  Feestwinkel
+//  based on : https://github.com/hanleyweng/Gesture-Recognition-101-CoreML-ARKit
 //
 //  Created by Jeremie Van de Walle on 21/12/17.
 //  Copyright © 2017 Jeremie Van de Walle. All rights reserved.
@@ -19,7 +20,7 @@ class FireworkCameraViewController: UIViewController {
     var code: String?
     var objCounter: Int = 0
     var objectFound: Bool = false;
-    let dispatchQueueML = DispatchQueue(label: "fireworkQueue") // A Serial Queue
+    let dispatchQueueML = DispatchQueue(label: "fireworkQueue")
     var visionRequests = [VNRequest]()
     
     override func viewDidLoad() {
