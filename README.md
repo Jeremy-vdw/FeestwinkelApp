@@ -38,4 +38,4 @@ I used some new material that we didn't see in class.
 I used [Microsoft's custom vision](https://www.customvision.ai) to build my own Machine Learning Model (Vuurwerk.mlmodel). 
 
 ### Demo video
-![demo](https://media.giphy.com/media/3ohc0UC57yeVuxwWPK/giphy.gif)
+[![Demo Doccou alpha](https://media.giphy.com/media/3ohc0UC57yeVuxwWPK/giphy.gif](https://www.youtube.com/watch?v=ek1j272iAmc)
