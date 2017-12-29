@@ -40,6 +40,6 @@ I used [Microsoft's custom vision](https://www.customvision.ai) to build my own 
 
 ### Demo video
 <p align="center">
-<img src="https://github.com/Jeremy-vdw/FeestwinkelApp/blob/master/demo1.gif" height="600" />
-<img src="https://github.com/Jeremy-vdw/FeestwinkelApp/blob/master/demo2.gif" height="600" />
+<img src="https://github.com/Jeremy-vdw/FeestwinkelApp/blob/master/demo1.gif" height="700" />
+<img src="https://github.com/Jeremy-vdw/FeestwinkelApp/blob/master/demo2.gif" height="700" />
 </p>
