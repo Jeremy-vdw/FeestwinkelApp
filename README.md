@@ -25,7 +25,7 @@ And comment this : (line 47 till 55)
             scanButton.alpha = 0.7;
         }
 ```
-Now the scanbutton should be enabled when you run the project. In the folder FireworkExamples, you find pictures of the firework just like they are placed in the store. When you hold your phone in front of the picture, the application should scan the firework.
+Now the scanbutton should be enabled when you run the project. In the folder [FireworkExamples](https://github.com/Jeremy-vdw/FeestwinkelApp/tree/master/FireworkExamples), you find pictures of the firework just like they are placed in the store. When you hold your phone in front of the picture, the application should scan the firework.
 
 ### Used Frameworks and Services
 I used some new material that we didn't see in class. 
@@ -35,7 +35,8 @@ I used some new material that we didn't see in class.
 * SceneKit
 * ARKit
 * CoreML
-I used [Microsoft's custom vision](https://www.customvision.ai) to build my own Machine Learning Model (Vuurwerk.mlmodel). 
+
+I used [Microsoft's custom vision](https://www.customvision.ai) to build my own Machine Learning Model [(Vuurwerk.mlmodel)](https://github.com/Jeremy-vdw/FeestwinkelApp/blob/master/Feestwinkel/Vuurwerk.mlmodel)
 
 ### Demo video
-![Demo Doccou alpha](https://giphy.com/embed/3ohc0UC57yeVuxwWPK)
+<img src="https://j.gifs.com/59AgRY.gif" height="300" />
