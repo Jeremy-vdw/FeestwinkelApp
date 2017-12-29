@@ -39,4 +39,4 @@ I used [Microsoft's custom vision](https://www.customvision.ai) to build my own 
 
 ### Demo video
 ![Alt Text](https://media.giphy.com/media/3ohc0SzEgfHjO45Du8/giphy.gif)
-<img src="https://media.giphy.com/media/3ohc0SzEgfHjO45Du8/giphy.gif" />
+<img src="https://github.com/Jeremy-vdw/FeestwinkelApp/blob/master/demo.gif" />
